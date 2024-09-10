@@ -12,21 +12,27 @@
 
   <body>
     <header>
-      <div class="navbar" id="myNavbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-  </div>
+      <nav>
+        <div class="navbar" id="myNavbar">
+          <a href="javascript:void(0)" class="darkmodeAnchor" id="dmToggle" onclick="darkmodeFunction()">
+            <i class="fa fa-toggle-off" id="darkmodeToggle"></i>
+          </a>
+          <a href="index.html" class="active">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="burgerFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
     </header>
 
     <main>
       <section>
-      <h2>Seksjon 1</h2>
+        <h2>Velkommen</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor quod id repellendus dolores, doloremque quibusdam recusandae voluptates, autem illum dolorum est ullam maxime cumque ad obcaecati libero ea aperiam laudantium esse eveniet, porro consequatur qui? Ipsam eveniet a ratione?</p>
       </section>
+
       <section>
       <h2>Seksjon 2</h2>
       </section>
@@ -34,7 +40,7 @@
 
     <footer>
     <p>Laget av Fabian</p>
-    <p>Finn meg på <a href="https://github.com/fabalien">Github</p>
+    <p>Finn meg på <a href="https://github.com/fabalien" class="footerLink">Github</p>
     </footer>
   </body>
 
