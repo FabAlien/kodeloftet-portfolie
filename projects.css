@@ -1,23 +1,48 @@
-.projectCollection {
-    text-decoration: none;
+  /* Variables */
+  
+:root {
+    --primaryColour: #c78354;
+    --secondaryColour: #333;
+    --tertiaryColour: #ddd;
+    --backgroundColour: #fdfdfd;
+    --textColour: #0d0d0d;
 }
 
-.projectCollection:link, .projectCollection:visited {
-    text-decoration: none;
+.projectCollection {
+    display: grid;
+    grid-template-columns: 256px 256px;
+    justify-content: center;
+    justify-items: center;
+    color: var(--primaryColour);
+    gap: 5vh;
 }
 
 .projectAnchor {
-
+    text-decoration: none;
+    color: var(--textColour);
 }
 
 .projectCard {
+    border: 2px solid var(--textColour);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.projectCard:hover {
+    border-color: var(--primaryColour);
+    color: var(--primaryColour);
+}
+
+.projectCard:hover .cardText {
+    border-color: var(--primaryColour);
+    color: var(--primaryColour);
 }
 
 .cardText {
-    text-decoration: none;
-}
-
-.cardText:link, .cardText:visited {
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid var(--textColour);
+    width: 100%;
+    height: 100%;
 }
