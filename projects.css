@@ -1,0 +1,23 @@
+.projectCollection {
+    text-decoration: none;
+}
+
+.projectCollection:link, .projectCollection:visited {
+    text-decoration: none;
+}
+
+.projectAnchor {
+
+}
+
+.projectCard {
+
+}
+
+.cardText {
+    text-decoration: none;
+}
+
+.cardText:link, .cardText:visited {
+    text-decoration: none;
+}
